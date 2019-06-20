@@ -8,22 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		72287E0922BB990300E2A99D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72287E0822BB990300E2A99D /* AppDelegate.swift */; };
-		72287E0B22BB990300E2A99D /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72287E0A22BB990300E2A99D /* FirstViewController.swift */; };
-		72287E0D22BB990300E2A99D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72287E0C22BB990300E2A99D /* SecondViewController.swift */; };
 		72287E1022BB990400E2A99D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72287E0E22BB990400E2A99D /* Main.storyboard */; };
 		72287E1222BB990800E2A99D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72287E1122BB990800E2A99D /* Assets.xcassets */; };
 		72287E1522BB990800E2A99D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72287E1322BB990800E2A99D /* LaunchScreen.storyboard */; };
+		72287E2022BB9BF100E2A99D /* Calanques.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72287E1F22BB9BF100E2A99D /* Calanques.swift */; };
+		72287E2222BB9DEC00E2A99D /* CalanqueCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72287E2122BB9DEC00E2A99D /* CalanqueCollection.swift */; };
+		72287E2422BB9F6600E2A99D /* ControllerAvecTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72287E2322BB9F6600E2A99D /* ControllerAvecTableView.swift */; };
+		72287E2622BB9F8000E2A99D /* ControllerAvecCarte.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72287E2522BB9F8000E2A99D /* ControllerAvecCarte.swift */; };
+		72287E2922BB9FC800E2A99D /* TableViewIntegreeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72287E2822BB9FC800E2A99D /* TableViewIntegreeController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		72287E0522BB990300E2A99D /* Les Calanques.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Les Calanques.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		72287E0822BB990300E2A99D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		72287E0A22BB990300E2A99D /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		72287E0C22BB990300E2A99D /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		72287E0F22BB990400E2A99D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		72287E1122BB990800E2A99D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72287E1422BB990800E2A99D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72287E1622BB990800E2A99D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72287E1F22BB9BF100E2A99D /* Calanques.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calanques.swift; sourceTree = "<group>"; };
+		72287E2122BB9DEC00E2A99D /* CalanqueCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalanqueCollection.swift; sourceTree = "<group>"; };
+		72287E2322BB9F6600E2A99D /* ControllerAvecTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerAvecTableView.swift; sourceTree = "<group>"; };
+		72287E2522BB9F8000E2A99D /* ControllerAvecCarte.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerAvecCarte.swift; sourceTree = "<group>"; };
+		72287E2822BB9FC800E2A99D /* TableViewIntegreeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewIntegreeController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +77,8 @@
 		72287E1C22BB9B4D00E2A99D /* Modele */ = {
 			isa = PBXGroup;
 			children = (
+				72287E1F22BB9BF100E2A99D /* Calanques.swift */,
+				72287E2122BB9DEC00E2A99D /* CalanqueCollection.swift */,
 			);
 			path = Modele;
 			sourceTree = "<group>";
@@ -85,8 +93,9 @@
 		72287E1E22BB9B6C00E2A99D /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				72287E0A22BB990300E2A99D /* FirstViewController.swift */,
-				72287E0C22BB990300E2A99D /* SecondViewController.swift */,
+				72287E2322BB9F6600E2A99D /* ControllerAvecTableView.swift */,
+				72287E2522BB9F8000E2A99D /* ControllerAvecCarte.swift */,
+				72287E2822BB9FC800E2A99D /* TableViewIntegreeController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -162,9 +171,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72287E0D22BB990300E2A99D /* SecondViewController.swift in Sources */,
+				72287E2922BB9FC800E2A99D /* TableViewIntegreeController.swift in Sources */,
+				72287E2222BB9DEC00E2A99D /* CalanqueCollection.swift in Sources */,
 				72287E0922BB990300E2A99D /* AppDelegate.swift in Sources */,
-				72287E0B22BB990300E2A99D /* FirstViewController.swift in Sources */,
+				72287E2622BB9F8000E2A99D /* ControllerAvecCarte.swift in Sources */,
+				72287E2422BB9F6600E2A99D /* ControllerAvecTableView.swift in Sources */,
+				72287E2022BB9BF100E2A99D /* Calanques.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
