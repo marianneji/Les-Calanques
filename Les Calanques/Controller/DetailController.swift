@@ -29,6 +29,7 @@ class DetailController: UIViewController {
             .foregroundColor: UIColor.darkGray
             ]))
         nomEtDesc.attributedText = mutable
+        nomEtDesc.textAlignment = .center
         
         // Do any additional setup after loading the view.
     }
