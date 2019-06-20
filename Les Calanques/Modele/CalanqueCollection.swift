@@ -10,7 +10,7 @@ import UIKit
 
 class CalanqueCollection {
     
-    func all() -> [Calanque] {
+    func all() -> [Calanque]{
         var calanques: [Calanque] = []
         
         calanques.append(Calanque(
