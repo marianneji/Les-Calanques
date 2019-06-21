@@ -20,6 +20,9 @@
 		72287E2D22BBB45000E2A99D /* ImageRonde.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72287E2C22BBB45000E2A99D /* ImageRonde.swift */; };
 		72287E2F22BBC22C00E2A99D /* CalanqueCellAlternative.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72287E2E22BBC22C00E2A99D /* CalanqueCellAlternative.swift */; };
 		72287E3122BBD3CC00E2A99D /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72287E3022BBD3CC00E2A99D /* DetailController.swift */; };
+		72287E3322BC490200E2A99D /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72287E3222BC490200E2A99D /* RoundButton.swift */; };
+		72287E3522BC4F3100E2A99D /* MonAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72287E3422BC4F3100E2A99D /* MonAnnotation.swift */; };
+		72287E3722BC52CE00E2A99D /* MonAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72287E3622BC52CE00E2A99D /* MonAnnotationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +41,9 @@
 		72287E2C22BBB45000E2A99D /* ImageRonde.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRonde.swift; sourceTree = "<group>"; };
 		72287E2E22BBC22C00E2A99D /* CalanqueCellAlternative.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalanqueCellAlternative.swift; sourceTree = "<group>"; };
 		72287E3022BBD3CC00E2A99D /* DetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
+		72287E3222BC490200E2A99D /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		72287E3422BC4F3100E2A99D /* MonAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonAnnotation.swift; sourceTree = "<group>"; };
+		72287E3622BC52CE00E2A99D /* MonAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonAnnotationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +93,7 @@
 			children = (
 				72287E1F22BB9BF100E2A99D /* Calanques.swift */,
 				72287E2122BB9DEC00E2A99D /* CalanqueCollection.swift */,
+				72287E3422BC4F3100E2A99D /* MonAnnotation.swift */,
 			);
 			path = Modele;
 			sourceTree = "<group>";
@@ -97,6 +104,8 @@
 				72287E2A22BBAACD00E2A99D /* CalanqueTableViewCell.swift */,
 				72287E2C22BBB45000E2A99D /* ImageRonde.swift */,
 				72287E2E22BBC22C00E2A99D /* CalanqueCellAlternative.swift */,
+				72287E3222BC490200E2A99D /* RoundButton.swift */,
+				72287E3622BC52CE00E2A99D /* MonAnnotationView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -185,8 +194,11 @@
 			files = (
 				72287E2922BB9FC800E2A99D /* TableViewIntegreeController.swift in Sources */,
 				72287E2222BB9DEC00E2A99D /* CalanqueCollection.swift in Sources */,
+				72287E3722BC52CE00E2A99D /* MonAnnotationView.swift in Sources */,
 				72287E0922BB990300E2A99D /* AppDelegate.swift in Sources */,
+				72287E3522BC4F3100E2A99D /* MonAnnotation.swift in Sources */,
 				72287E2622BB9F8000E2A99D /* ControllerAvecCarte.swift in Sources */,
+				72287E3322BC490200E2A99D /* RoundButton.swift in Sources */,
 				72287E2422BB9F6600E2A99D /* ControllerAvecTableView.swift in Sources */,
 				72287E2F22BBC22C00E2A99D /* CalanqueCellAlternative.swift in Sources */,
 				72287E2B22BBAACD00E2A99D /* CalanqueTableViewCell.swift in Sources */,
